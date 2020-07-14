@@ -20,7 +20,7 @@
 
 <!--ここから「PHP/Laravel 12 課題1」より追記200714-->
 {{--layouts/profile.blade.phpを読み込む--}}
-@extends('layouts.admin')
+@extends('layouts.profile')
 
 {{--profile.blade.phpの@yield('title')に'プロフィールの編集'を埋め込む--}}
 @section('title', 'プロフィールの編集')
